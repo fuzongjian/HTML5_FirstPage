@@ -1,0 +1,495 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+*{
+	list-style: none;
+}
+img{
+	border:0;
+
+}
+/*顶部区域开始*/
+#top{
+	width: 100%;
+	height: 31px;
+	/*border: solid red 1px;*/
+	background: #F7F7F7;
+	position: relative;
+	z-index: 5;
+}
+#top a{
+	color: #666666;
+}
+#top a:hover{
+	color: #E4393C;
+	text-decoration: underline;
+}
+#top .center{width: 1210px;
+		height: 30px;
+		/*border:blue 1px solid;*/
+		margin: 0px auto;
+
+}
+#top .center .left{width: 245px;
+		height: 30px;
+		/*border :red 1px solid;*/
+		float:left;
+		line-height: 30px;
+		font-size: 12px;
+		color:#666;
+		margin-left: 0px;
+		position: relative;
+		display: block;
+
+
+}
+
+
+
+#top .center .left .erwei{
+	width: 13px;
+	height: 13px;
+	/*border:solid blue 1px;*/
+	display: block;
+	position: absolute;
+	top: 8px;
+	left:83px;
+	
+	
+	background: url(../images/ma.jpg) no-repeat  -8px -8px;
+}
+#top .center .left .shoucang{
+	/*border :red 1px solid;*/
+	line-height: 30px;
+
+
+
+}
+#top .center .left .guanzhu{
+	/*border :red 1px solid;*/
+	position: relative;
+	margin-left: 38px;
+}
+#top .center .left  .tiaoma{
+	width: 116px;
+	height: 129px;
+	border: #DDDDDD solid 2px;
+	position: absolute;
+	top: 20px;
+	left:-40px;
+	background: white;
+	display: none;
+}
+#top .center .left  .sanjiao{
+	width: 0px;
+	height: 0px;
+	border-left: 8px  transparent dashed;
+	border-top: 8px transparent dashed;
+	border-bottom: 8px solid white;
+	border-right: 8px transparent dashed;
+	display: block;
+	position: absolute;
+	top:-16px;
+	left: 50px;
+	
+}
+#top .center .left  .tiaoma .jd{
+	width: 76px;
+	height: 99px;
+	/*border: red solid 1px;*/
+	display: block;
+	background: url(../images/ma.jpg)no-repeat -28px -58px;
+	position: absolute;
+	top: 15px;
+	left: 20px;
+}	
+#top .center .left .city{
+	/*border:solid blue 1px;*/
+	margin-left: 20px;
+	font-family: arial;
+	font-weight: 700;
+
+}
+#top .center .left .change{
+	padding-left: 4px;
+	font-weight: 400;
+	font-family: arial;
+	
+
+}
+#top .center .left .map{
+	width: 10px;
+	height: 14px;
+	/*border:solid blue 1px;*/
+	display: block;
+	position: absolute;
+	top:7px;
+	left: 166px;
+	background: url(../images/m.png) no-repeat  -6px -3px;
+}
+
+#top .center .right{
+	width: 454px;
+	height: 30px;
+	font-size: 12px;
+	/*border:solid red 1px;*/
+	float: right;
+	text-align: center;
+	
+	position: relative;
+	
+}
+
+#top .center .right .dingdan{
+	width: 71px;
+	height: 14px;
+	border-left:solid #DDDDDD  1px;
+	position: absolute;
+	top:8px;
+	left: 0px;
+	color: 
+	
+}
+#top .center .right .huiyuan{
+	width:105px;
+	height: 14px;
+	border-left:solid #DDDDDD  1px;
+	position: absolute;
+	top:8px;
+	left: 72px;
+	text-indent: 0px;
+
+	
+}
+/*手机区域开始*/
+#top .center .right .phone{
+	width:107px;
+	height: 12px;
+	border-left:solid #DDDDDD 1px;
+	position: absolute;
+	top:9px;
+	left: 179px;
+	text-indent: 0px;
+	
+}
+#top .center .right .phone .hide_box{
+	width:250px;
+	height: 294px;
+	border:solid #DDDDDD 1px;
+	position: absolute;
+	top: 22px;
+	left: 4px;
+	background: white;
+	display: none;
+	z-index: 1;
+	
+	
+}
+#top .center .right .phone .kehuduan{
+	width:220px;
+	height: 65px;
+	/*border:solid red 1px;*/
+	position: absolute;
+	top: 22px;
+	left: 4px;	
+	
+}
+#top .center .right .phone .jd{
+	width:76px;
+	height: 76px;
+	/*border:solid red 1px;*/
+	position: absolute;
+	top: 69px;
+	left: 30px;	
+	
+}
+#top .center .right .phone .kh{
+	
+	/*border:solid red 1px;*/
+	position: absolute;
+	top: 62px;
+	left: 122px;	
+	font-size: 12px;
+	font-family: arial;
+	font-weight: 700;
+	color: #E4393C;
+	
+}
+#top .center .right .phone .app1{
+	
+width:96px;
+	height: 29px;
+	/*border:solid red 1px;*/
+	position: absolute;
+	top: 87px;
+	left: 122px;	
+	background: url(../images/2.png) no-repeat 0px -360px;
+}
+#top .center .right .phone .anzhuo1{
+	
+width:96px;
+	height: 29px;
+	/*border:solid red 1px;*/
+	position: absolute;
+	top: 123px;
+	left: 122px;	
+	background: url(../images/2.png) no-repeat 0px -399px;
+}
+#top .center .right .phone .money{
+	width:76px;
+	height: 76px;
+	/*border:solid red 1px;*/
+	position: absolute;
+	top: 192px;
+	left: 30px;	
+	
+}
+#top .center .right .phone .wy{
+	
+	/*border:solid red 1px;*/
+	position: absolute;
+	top: 187px;
+	left: 122px;	
+	font-size: 12px;
+	font-family: arial;
+	font-weight: 700;
+	color: #E4393C;
+	
+}
+#top .center .right .phone .app2{
+	
+width:96px;
+	height: 29px;
+	/*border:solid red 1px;*/
+	position: absolute;
+	top: 209px;
+	left: 122px;	
+	background: url(../images/2.png) no-repeat 0px -360px;
+}
+#top .center .right .phone .anzhuo2{
+	
+width:96px;
+	height: 29px;
+	/*border:solid red 1px;*/
+	position: absolute;
+	top: 245px;
+	left: 122px;	
+	background: url(../images/2.png) no-repeat 0px -399px;
+}
+#top .center .right .phone .shouji{
+	width:98px;
+	height: 28px;
+	/*border:solid red 1px;*/
+	margin-left: 4px;
+	margin-top: -5px;
+	position: relative;
+	z-index: 2;
+	
+}
+#top .center .right .phone .logo{
+	width: 13px;
+	height: 22px;
+	/*border: blue solid 1px;*/
+	overflow: hidden;
+	position: absolute;
+	left:8px;
+}
+#top .center .right .phone .logo .inter{
+	width: 13px;
+	height: 44px;
+	/*border: red solid 1px;*/
+	position: absolute;
+	top: 0px;
+	left:0px;
+}
+#top .center .right .phone .logo .inter .c1{
+	width: 13px;
+	height: 22px;
+	/*border: green solid 1px;*/
+	background: url(../images/2.png) no-repeat -128px -360px;
+}
+#top .center .right .phone .logo .inter .c2{
+	width: 13px;
+	height: 22px;
+	/*border: green solid 1px;*/
+	
+	background: url(../images/2.png) no-repeat -128px -399px;
+}
+/*手机区域结束*/
+
+/*客服区域开始*/
+#top .center .right .kefu{
+	width:82px;
+	height: 12px;
+	border-left:solid #DDDDDD 1px;
+	position: absolute;
+	/*background: blue;*/
+	top:9px;
+	left: 287px;
+	
+	
+	
+}
+#top .center .right .kefu .hide_box{
+	width: 73px;
+	height: 112px;
+	border:solid 1px #DDDDDD;
+	line-height: 22px;
+
+	background: white;
+	
+	position: absolute;
+	left: 3px;
+	top:20px;
+	
+	/*z-index: 1;*/
+	display: none;
+	z-index: 1;
+
+	
+
+
+}
+#top .center .right .kefu .fuwu{
+	width:73px;
+	height: 28px;
+	/*border:solid red 1px;*/
+	margin-left: 4px;
+	margin-top: -5px;
+	position: relative;
+	z-index: 2;
+		
+}
+/*客服区域结束*/
+
+
+/*网站导航区域开始*/
+#top .center .right .daohang{
+	width:82px;
+	height: 12px;
+	border-left:solid #DDDDDD 1px;
+	position: absolute;
+	top:9px;
+	right:0px;
+	
+}
+#top .center .right .daohang .wangzhan{
+	width:73px;
+	height: 29px;
+	/*border:solid red 1px;*/
+	margin-left: 6px;
+	margin-top: -5px;
+	position: relative;
+	z-index: 2;
+
+	
+}
+#top .center .right .daohang .hide_box{
+	width: 250px;
+	height: 209px;
+	border:solid 1px #DDDDDD;
+	position: absolute;
+	right: 4px;
+	top:23px;
+	background: white;
+	display: none;
+	z-index: 1;
+
+	/*background: red;*/
+
+
+}
+#top .center .right .daohang .line1{
+	width: 232px;
+	height: 97px;
+	border-bottom: #F2F2F2 solid 1px;
+	position: absolute;
+	top: 0px;
+	left: 9px;
+
+}
+#top .center .right .daohang .line2{
+	width: 232px;
+	height: 53px;
+	border-bottom:#F2F2F2 solid 1px;
+	position: absolute;
+	top: 97px;
+	left: 9px;
+}
+#top .center .right .daohang .line3{
+	width: 232px;
+	height: 57px;
+	/*border: red solid 1px;*/
+	position: absolute;
+	top:151px;
+	left: 9px;
+}
+#top .center .right .daohang ul li{
+
+	float: left;
+	line-height: 22px;
+	margin-left: 12px;
+	/*display: block;*/
+}
+#top .center .right .daohang .title{
+	
+	font-size: 12px;
+	font-weight: 700;
+	font-family: arial;
+	color: #666666;
+}
+/*网站导航区域结束*/
+#top .center .right .vip{
+	width: 24px;
+	height: 11px;
+	/*border:solid blue 1px;*/
+	display: block;
+	float: left;
+	margin-left: 5px;
+	margin-top: 0px;
+	background: #E4393C;
+	color: white;
+}
+#top .center .right .xsj{
+	font-size: 0px;
+	line-height: 0px;
+	width: 7px;
+	height: 4px;
+	/*border:solid red 1px;*/
+	display: block;
+	position: absolute;
+	top: 9px;
+	right: 7px;
+	background: url(../images/2.png) no-repeat  -97px -49px;
+}
+#top .center .right .des{
+position: absolute;
+right: 20px;
+top: 5px;
+
+}
+#top .center .middle{
+	width: 230px;
+	height: 15px;
+	/*border:solid blue 1px;*/
+	float: right;
+	margin-top: 8px;
+	font-size: 12px;
+	color: #666;
+
+}
+
+#pic{
+	width: 1210px;
+	height: 70px;
+	margin: 0px auto;
+	/*border:solid blue 1px;*/
+	margin-top: 2px;
+
+}
