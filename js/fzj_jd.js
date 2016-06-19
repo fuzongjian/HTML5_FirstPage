@@ -110,4 +110,17 @@ $(function () {
 		}
 		$('#middle .logo2 .b').stop().animate({'right':-606*l},600);
 	});
+
+	// 生活区域开始
+	// 给div加入移入事件
+	$('#shenghuo div').mouseenter(function () {
+		s = $(this).index();//获得当前div序号
+		$('#shenghuo .move').eq(s).stop().animate({'left':'-10px'},400);//鼠标移入时图片向左移动
+	});
+	$('#shenghuo div').mouseleave(function () {
+		$('#shenghuo .move').eq(s).stop().animate({'left':'0px'},400);
+	});
+
+
+
 })
